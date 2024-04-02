@@ -14,9 +14,8 @@ print('''
 ''')
 print("welcome to my hangman game, lets play!\n")
 
-
+# chose random word from world_list
 chosen_word = random.choice(word_list)
-# print(chosen_word)  # this code is for testing, sees the answers
 
 # initiate number of underscore needed to be displayed
 hud = []
